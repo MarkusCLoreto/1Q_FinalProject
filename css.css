@@ -1,0 +1,150 @@
+body {
+	background: #443d3d;
+	background: radial-gradient(circle, #362f2f 50%, #743737 100%);
+}
+
+h1  {
+	color: white; 
+	font-family:Math;
+	background: #443d3d;
+	background: radial-gradient(circle, #974545 15%, #743737 100%);
+	font-size: 3.5em;
+}
+
+#title {
+	color: white; 
+	font-family:Math;
+	background: #443d3d;
+	background: radial-gradient(circle, #974545 15%, #743737 100%);
+	font-size: 3.5em;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+h2{color: white;
+	font-family:Math;
+	background: #443d3d;
+	background: radial-gradient(circle, #974545  15%, #743737 100%);
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+	font-size: 3em;
+}
+
+.Lvertical{
+	border-left: 12px solid #974545;
+    height: 900px;
+    position:absolute;
+    margin-left: 5px;
+ 	top: 250px;
+}
+
+.Rvertical{
+	border-right: 12px solid #974545;
+    height: 900px;
+    position:absolute;
+    margin-left: 1870px;
+ 	top: 250px;
+}
+
+#floatleft {
+	margin-right: 900px;
+	text-indent: 0px;
+	background: #443d3d;
+	background: linear-gradient(90deg, #743737 25%, #2c2a2a 55%);
+}
+#floatright {
+	margin-left: 900px;
+	text-indent: 0px;
+	background: #443d3d;
+	background: linear-gradient(90deg, #2c2a2a 25%, #743737 55%);
+}
+
+#floatlefts {
+	margin-right: 500px;
+	text-indent: 0px;
+	background: #443d3d;
+	background: linear-gradient(90deg, #743737 25%, #2c2a2a 55%);
+}
+#floatrights {
+	margin-left: 500px;
+	text-indent: 0px;
+	background: #443d3d;
+	background: linear-gradient(90deg, #2c2a2a 25%, #743737 55%);
+}
+
+#imgr {
+	float: right;
+	width: 270px;
+	height: 270px;
+	margin-right: 270px ;
+	margin-bottom: 300px;
+}
+div{
+	color: white;
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#imgr2 {
+	float: right;
+	width: 800px;
+	height: 500px;
+	margin-right: 10px ;
+	color: white;
+}
+#imgr3 {
+	float: left;
+	width: 600px;
+	height: 500px;
+	margin-left: 80px ;
+	color: white;
+}
+#imgr4 {
+	float: right;
+	width: 700px;
+	height: 500px;
+	margin-right: 10px;
+	color: white;
+}
+
+#imgr5 {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	color: white;
+}
+
+#imgr6 {
+	float: right;
+	width: 300px;
+	height: 300px;
+	margin-left: 100px;
+	color: white;
+}
+
+#link{
+	margin: 50px;
+	font-size: 3em;
+	color: white;
+}
+
+#link2{
+	margin: 50px;
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
+
+p  {
+	color: rgb(255, 255, 255); 
+	background: #443d3d;
+	background: radial-gradient(circle, #2c2a2a 50%, #743737 100%);
+	margin: 50px;
+	text-indent: 100px;
+	text-align: left;
+	font-size: 1.65em;
+}
