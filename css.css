@@ -126,10 +126,17 @@ div{
 	color: white;
 }
 
-#link{
+a {
 	margin: 50px;
 	font-size: 3em;
 	color: white;
+	transition: font-size 25s;
+	transition: color, .5s;
+}
+
+a:hover {
+	color: #FB6F6F;
+	font-size: 3.25em;
 }
 
 #link2{
@@ -137,6 +144,15 @@ div{
 	font-size: 3em;
 	color: white;
 	text-align: center;
+	transition: font-size .25s;
+	transition: margin .5s;
+	transition: color, .5s;
+}
+
+#link2:hover {
+	color: #FB6F6F;
+	margin: 60px;
+	font-size: 3.25em;
 }
 
 p  {
@@ -146,5 +162,15 @@ p  {
 	margin: 50px;
 	text-indent: 100px;
 	text-align: left;
+	font-size: 1.65em;
+}
+
+#yesyesyes {
+	color: rgb(255, 255, 255); 
+	background: #443d3d;
+	background: radial-gradient(circle, #2c2a2a 50%, #743737 100%);
+	margin: 150px;
+	text-indent: 100px;
+	text-align: center;
 	font-size: 1.65em;
 }
