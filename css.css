@@ -174,3 +174,8 @@ p  {
 	text-align: center;
 	font-size: 1.65em;
 }
+
+iframe {
+	margin-left: 150px;
+	margin-right: 150px;
+}
