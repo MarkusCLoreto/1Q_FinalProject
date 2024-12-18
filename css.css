@@ -11,6 +11,10 @@ h1  {
 	font-size: 3.5em;
 }
 
+h1:only-child {
+	border-radius: 15px 50px 30px 5px;
+}
+
 #title {
 	color: white; 
 	font-family:Math;
@@ -20,6 +24,10 @@ h1  {
 	margin-right: 100px;
 	margin-left: 100px;
 	text-align: center;
+}
+
+#title:only-child {
+	border-radius: 15px 50px 30px 5px;
 }
 
 h2{color: white;
@@ -173,7 +181,14 @@ a:hover {
 #link2:hover {
 	color: #FB6F6F;
 	margin: 60px;
-	font-size: 3.25em;
+	transform: scale(1.08);
+}
+
+#return {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	background: url(Images/return-icon-vector-9.jpg) 0 0;
 }
 
 p  {
