@@ -36,7 +36,36 @@ div:only-child{
 	  transform: scale(1);
 	}
   }
-  
+
+  #choices {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+button {
+	color: white; 
+	font-family:Math;
+	background: #443d3d;
+	background: radial-gradient(circle, #974545 15%, #743737 100%);
+	font-size: 2.5em;
+}
+
+#choices li {
+    margin: 5px 0;
+}
+
+#choices button {
+	color: white; 
+	font-family:Math;
+	background: #443d3d;
+	background: radial-gradient(circle, #974545 15%, #743737 100%);
+	font-size: 1.5em;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
 #title {
 	color: white; 
 	font-family:Math;
@@ -64,7 +93,7 @@ h2{color: white;
 
 .Lvertical{
 	border-left: 12px solid #974545;
-    height: 1200px;
+    height: 1700px;
     position:absolute;
     margin-left: 5px;
  	top: 295px;
@@ -72,7 +101,7 @@ h2{color: white;
 
 .Rvertical{
 	border-right: 12px solid #974545;
-    height: 1200px;
+    height: 1700px;
     position:absolute;
     margin-left: 1870px;
  	top: 295px;
