@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Social Issues of Education in the Philippines.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1 id="title">Your Profile</h1>
+    </header>
+    <div class="topbar"; id="regDiv">
+      <div class="topbar-content"; id="regDiv">
+        <a href="index.html"; id="link3">Home</a>
+      </div>
+      <div class="topbar-content"; id="regDiv">
+        <a href="proj_signup_loreto.html"; id="link3">Sign Up!</a>
+      </div>
+      <div class="topbar-content"; id="regDiv">
+        <a href="proj_profile_loreto.html"; id="link3">See Profile</a>
+      </div>
+      <div class="topbar-content"; id="regDiv">
+        <a href="IssuesHTML.html"; id="link3">Issues</a>
+      </div>
+      <div class="topbar-content"; id="regDiv">
+        <a href="SGgoals.html"; id="link3">SDG #4</a>
+      </div>
+      <div class="topbar-content"; id="regDiv">
+        <a href="Quiz.html"; id="link3">A Quiz</a>
+      </div>
+      </div>	  
+   <div id="box">
+        <p><span class="label">First name:</span> <span id="displayFirstName"></span></p>
+        <p><span class="label">Last name:</span> <span id="displayLastName"></span></p>
+        <p><span class="label">Email address:</span> <span id="displayEmail"></span></p>
+        <p><span class="label">Sex:</span> <span id="displaySex"></span></p>
+        <p><span class="label">Why I support this campaign:</span></p>
+        <p id="displayReason"></p>
+   </div>
+
+    <footer>
+        <a href="index.html"; id="link2">Return to Home?</a>
+    </footer>
+    <script>
+        document.getElementById('displayFirstName').textContent = localStorage.getItem('firstName') || '[missing]';
+        document.getElementById('displayLastName').textContent  = localStorage.getItem('lastName')  || '[missing]';
+        document.getElementById('displayEmail').textContent     = localStorage.getItem('email')     || '[missing]';
+        document.getElementById('displaySex').textContent       = localStorage.getItem('sex')       || '[missing]';
+        document.getElementById('displayReason').textContent    = localStorage.getItem('reason')    || '[missing]';
+      </script>
+  </body>
+</html>

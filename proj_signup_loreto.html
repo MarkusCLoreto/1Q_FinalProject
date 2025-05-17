@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Social Issues of Education in the Philippines.</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<header>
+		<h1>Sign Up</h1>
+	</header>
+
+	<div id="box">
+		<form id="signupForm" novalidate>
+			<label for="firstName">
+			  First name *<br>
+			  <input type="text" id="firstName" name="firstName">
+			  <span class="error" id="errFirstName"></span>
+			</label><br><br>
+	  
+			<label for="lastName">
+			  Last name *<br>
+			  <input type="text" id="lastName" name="lastName">
+			  <span class="error" id="errLastName"></span>
+			</label><br><br>
+	  
+			<fieldset>
+			  <legend>Sex *<span class="error" id="errSex"></span></legend>
+			  <label><input type="radio" name="sex" value="Male"> Male</label>
+			  <label><input type="radio" name="sex" value="Female"> Female</label>
+			  <label><input type="radio" name="sex" value="Prefer not to say"> Prefer not to say</label>
+			</fieldset><br><br>
+	  
+			<label for="email">
+			  Email address *<br>
+			  <input type="email" id="email" name="email">
+			  <span class="error" id="errEmail"></span>
+			</label><br><br>
+	  
+			<label for="password">
+			  Password *<br>
+			  <input type="password" id="password" name="password">
+			  <span class="error" id="errPassword"></span>
+			</label><br><br>
+	  
+			<label for="contact">
+			  Contact number<br>
+			  <input type="text" id="contact" name="contact">
+			</label><br><br>
+	  
+			<label for="reason">
+			  Why you’re supporting our campaign *<br>
+			  <textarea id="reason" name="reason"></textarea>
+			  <span class="error" id="errReason"></span>
+			</label><br><br>
+	  
+			<button type="submit">Join Us</button>
+		  </form>
+	</div>
+	
+	<script src="signUp_script.js">
+    document.getElementById('signupForm').addEventListener('submit', function(e) {
+    });
+	</script>
+	
+	<footer>
+        <a href="index.html"; id="link2">Return to Home?</a>
+    </footer>
+  </body>
+</html>
